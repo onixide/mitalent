@@ -1,2 +1,0 @@
-# mitalent
-PSD -> web

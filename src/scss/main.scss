@@ -1,0 +1,20 @@
+@import 
+    '../scss/utils/variables';
+    
+    // @import
+    //     '../scss/vendors/';
+    
+    @import
+    '../scss/base/media-queries',
+    '../scss/base/reset';
+
+
+// @import
+//     '../scss/pages/';
+
+// @import
+//     '../scss/themes/';
+
+body {
+    background-color: pink;
+}
