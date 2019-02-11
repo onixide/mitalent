@@ -8,6 +8,8 @@
     '../scss/base/media-queries',
     '../scss/base/reset';
 
+    @import
+    '../scss/components/gallery';
 
 // @import
 //     '../scss/pages/';
@@ -17,4 +19,13 @@
 
 body {
     background-color: pink;
+}
+
+.header-mockup {
+    background-color: purple;
+    height: 800px;
+}
+
+.talent {
+
 }
