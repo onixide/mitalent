@@ -1,20 +1,23 @@
 @import 
-    '../scss/utils/variables';
+    './utils/variables';
     
     // @import
     //     '../scss/vendors/';
     
     @import
-    '../scss/base/media-queries',
-    '../scss/base/reset';
-
+    './base/media-queries',
+    './base/reset',
+    './layout/layout',
+    './components/components';
 
 // @import
 //     '../scss/pages/';
 
 // @import
 //     '../scss/themes/';
-
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: pink;
+    background-color: #fff;
 }
