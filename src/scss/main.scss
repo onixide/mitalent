@@ -9,6 +9,12 @@
     './base/reset',
     './layout/layout',
     './components/components';
+    '../scss/base/media-queries',
+    '../scss/base/reset';
+
+    @import
+    '../scss/components/gallery';
+
 
 // @import
 //     '../scss/pages/';
@@ -19,5 +25,15 @@
     box-sizing: border-box;
 }
 body {
+
     background-color: #fff;
 }
+.header-mockup {
+    background-color: purple;
+    height: 800px;
+}
+
+.talent {
+
+}
+
