@@ -1,26 +1,33 @@
 @import 
-    '../scss/utils/variables';
+    './utils/variables';
     
     // @import
     //     '../scss/vendors/';
     
     @import
+    './base/media-queries',
+    './base/reset',
+    './layout/layout',
+    './components/components';
     '../scss/base/media-queries',
     '../scss/base/reset';
 
     @import
     '../scss/components/gallery';
 
+
 // @import
 //     '../scss/pages/';
 
 // @import
 //     '../scss/themes/';
-
-body {
-    background-color: pink;
+* {
+    box-sizing: border-box;
 }
+body {
 
+    background-color: #fff;
+}
 .header-mockup {
     background-color: purple;
     height: 800px;
@@ -29,3 +36,4 @@ body {
 .talent {
 
 }
+

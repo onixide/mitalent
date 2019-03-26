@@ -1,0 +1,27 @@
+.header-sidebar {
+  width: 100px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.social-icons {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.social-icon {
+    margin: $p2 0;
+    background: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fdownload.seaicons.com%2Ficons%2Fpaomedia%2Fsmall-n-flat%2F1024%2Fsocial-facebook-icon.png&f=1") center no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.slide-info {}
